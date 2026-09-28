@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scorepath",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Score config/path key checks for twelve-factor services.",
+  "bin": {
+    "scorepath": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scorepath.git"
+  },
+  "homepage": "https://theworker02.github.io/scorepath/",
+  "keywords": [
+    "score",
+    "path",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
